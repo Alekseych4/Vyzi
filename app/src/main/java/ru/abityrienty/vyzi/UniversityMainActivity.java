@@ -56,8 +56,6 @@ public class UniversityMainActivity extends AppCompatActivity {
         list_id = bundle.getLong("_id");
         id = Long.toString(list_id);
         textView = (TextView) findViewById(R.id.info);
-
-
     }
 
     @Override
