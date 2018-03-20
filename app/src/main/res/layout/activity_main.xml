@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -27,29 +27,43 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
+                    <ImageButton
+                        android:id="@+id/btn_1"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        style="@style/small_picture"
+                        android:src="@mipmap/kfu"
+                        android:background="@null" />
+
+                    <ImageButton
+                        android:id="@+id/btn_2"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        style="@style/small_picture"
+                        android:src="@mipmap/kai"
+                        android:background="@null"/>
+
+                    <ImageButton
+                        android:id="@+id/btn_3"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        style="@style/small_picture"
+                        android:src="@mipmap/kgmu"
+                        android:background="@null"/>
+
+                    <ImageButton
+                        android:id="@+id/btn_5"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:background="@null"
+                        fbutton:srcCompat="@drawable/kgeu_logo"
+                        style="@style/small_picture"/>
+
                     <ImageView
                         style="@style/small_picture"
                         android:src="@mipmap/kfu" />
 
-                    <ImageView
-                        style="@style/small_picture"
-                        android:src="@mipmap/kai" />
 
-                    <ImageView
-                        style="@style/small_picture"
-                        android:src="@mipmap/kgmu" />
-
-                    <ImageView
-                        style="@style/small_picture"
-                        android:src="@drawable/kgeu_logo" />
-
-                    <ImageView
-                        style="@style/small_picture"
-                        android:src="@mipmap/kfu" />
-
-                    <ImageView
-                        style="@style/small_picture"
-                        android:src="@mipmap/kfu" />
                 </LinearLayout>
             </HorizontalScrollView>
 
