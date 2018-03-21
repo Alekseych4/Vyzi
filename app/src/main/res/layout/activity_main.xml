@@ -27,25 +27,37 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
-                    <ImageView
+                    <ImageButton
+                        android:id="@+id/btn_1"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         style="@style/small_picture"
-                        android:src="@mipmap/kfu" />
+                        android:src="@mipmap/kfu"
+                        android:background="@null" />
 
-                    <ImageView
+                    <ImageButton
+                        android:id="@+id/btn_2"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         style="@style/small_picture"
-                        android:src="@mipmap/kai" />
+                        android:src="@mipmap/kai"
+                        android:background="@null"/>
 
-                    <ImageView
+                    <ImageButton
+                        android:id="@+id/btn_3"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         style="@style/small_picture"
-                        android:src="@mipmap/kgmu" />
+                        android:src="@mipmap/kgmu"
+                        android:background="@null"/>
 
-                    <ImageView
-                        style="@style/small_picture"
-                        android:src="@drawable/kgeu_logo" />
-
-                    <ImageView
-                        style="@style/small_picture"
-                        android:src="@mipmap/kfu" />
+                    <ImageButton
+                        android:id="@+id/btn_5"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:background="@null"
+                        fbutton:srcCompat="@drawable/kgeu_logo"
+                        style="@style/small_picture"/>
 
                     <ImageView
                         style="@style/small_picture"
