@@ -73,6 +73,33 @@
                         fbutton:srcCompat="@mipmap/kgeu_logo"
                         style="@style/small_picture"/>
 
+                    <ImageButton
+                        android:onClick="openUniversityMainActivity"
+                        android:id="@+id/btn_6"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:background="@null"
+                        fbutton:srcCompat="@mipmap/logo_kazgik_new"
+                        style="@style/small_picture"/>
+
+                    <ImageButton
+                        android:onClick="openUniversityMainActivity"
+                        android:id="@+id/btn_7"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:background="@null"
+                        fbutton:srcCompat="@mipmap/logo_kgasu"
+                        style="@style/small_picture"/>
+
+                    <ImageButton
+                        android:onClick="openUniversityMainActivity"
+                        android:id="@+id/btn_8"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:background="@null"
+                        fbutton:srcCompat="@mipmap/logo_kiu"
+                        style="@style/small_picture"/>
+
 
 
                 </LinearLayout>
