@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+<android.support.design.widget.CoordinatorLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
-    xmlns:fbutton="http://schemas.android.com/apk/res-auto">
-
-    <ScrollView
+    <ListView
+        android:id="@+id/list_of_vyzi_frag"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <LinearLayout style="@style/linear_introduction">
-
-                <TextView style="@style/default_text" />
-
-            </LinearLayout>
-            </LinearLayout>
-        </ScrollView>
-
-</LinearLayout>
+        android:layout_height="match_parent"/>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:rippleColor="@color/fab_pressed"
+        app:backgroundTint="@color/siteBack"
+        android:background="@color/siteBack"
+        android:tint="@color/white"
+        app:srcCompat="@android:drawable/ic_input_add"
+        app:fabSize="auto"/>
+</android.support.design.widget.CoordinatorLayout>
